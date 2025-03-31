@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Columns Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Four Columns</h1>
+        <div class="row">
+            <div class="col-sm-3" style="background-color:red; border-style: dotted;">.col</div>
+            <div class="col-sm-3" style="background-color:red;border-style: dotted">.col</div>
+            <div class="col-sm-3" style="background-color:red;border-style: dotted">.col</div>
+            <div class="col-sm-3" style="background-color:red;border-style: dotted">.col</div>
+        </div>
+    </div>
+
+    <!-- display heddings -->
+    <div class="container-fluid" style="border: solid black 2rem">
+        <h1>This Is Our First Heading</h1>
+        <div class="display-1">This Is Our First Display Heading!</div>
+        <div class="display-2">This Is Our Second Display Heading!</div>
+        <h1 class="display-3">This Is Our Third Display Heading!</h1>
+        <p class="display-4">This Is Our Fourth Display Heading!</p>
+    </div>
+
+
+    <div class="container">
+        <h1>HTML Text Elements in Bootstrap</h1>
+        <h1>h1 heading <small>Some <mark>information</mark></small></h1>
+        <h2>h2 heading <small>Some information</small></h2>
+        <h3>h3 heading <small>Some information</small></h3>
+        <h4>h4 heading <small>Some information</small></h4>
+        <h5>h5 heading <small>Some information</small></h5>
+        <h6>h6 heading <small>Some information</small></h6>
+        <p>The <abbr title="European Union">EU</abbr> has introduced the GDPR</p>
+        <blockquote class="blockquote">
+            <p>Europe's new data protection rules will be a reality tomorrow. Europeans’
+                privacy will be better protected and companies benefit from a single set
+                of rules across the EU.<mark><small> Strong data </small></mark> rules are the basis for a
+                functioning Digital Single Market and for the online economy to prosper. The
+                new rules ensure that citizens can trust in how their data is used and that the
+                EU can make best of the opportunities of the data economy.
+                Our new data protection rules were agreed for a reason: Two-thirds of
+                Europeans are concerned about the way their data was being handled, feeling
+                they have no control over information they give online. Companies need clarity
+                to be able to safely extend operations across the EU. Recent data scandals
+                confirmed that with stricter and clearer data protection rules we are doing the
+                right thing in Europe.</p>
+            <footer class="blockquote-footer">Andrus Ansip</footer>
+        </blockquote>
+    </div>
+    <div class="container">
+        <div class="text-danger">hello</div>
+    </div>
+    <div class="container">
+        <div class="bg-success text-yellow">hello</div>
+    </div>
+</body>
+
+
+<!-- jumbotron -->
+<BR></BR>
+
+
+<div class="jumbotron jumbotron-fluid">
+
+    <div class="container">
+        <h1>Jumbotron Example</h1>
+        <p>Use Bootstrap to add visually pleasing elements and an extensive list of
+            functionalities in your website.</p>
+
+    </div>
+</div>
+<p>This paragraph does not come under jumbotron.</p>
+
+<!-- alert -->
+
+<div class="container">
+    <h1>Animated Alert Example</h1>
+    <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Congratulations!</strong> Your ID was successfully created!
+
+    </div>
+    <div class="alert alert-info alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Information!</strong> Check our About Us page to see our services.
+
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Warning!</strong> Avoid travel in this weather.
+    </div>
+
+    <div class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;
+        </button>
+        <strong>Danger!</strong> This website may contain a virus.
+    </div>
+
+    <div class="alert alert-primary alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Attention!</strong> The flight to Detroit is cancelled!
+    </div>
+
+    <div class="alert alert-secondary alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Suggestion:</strong> Use text editor for professional web designing projects.
+    </div>
+
+    <div class="alert alert-dark alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>See Below</strong> to understand the random forest algorithm.
+    </div>
+
+    <div class="alert alert-light alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>See above!</strong> to understand the decision tree algorithm.
+    </div>
+
+</div>
+
+<!--buttons-->
+
+<button class="btn">BUTTON1</button>
+<button class="btn btn-lg">BUTTON1</button>
+<button class="btn btn-lg btn-outline-dark">BUTTON1</button>
+<BR></BR>
+<div class="btn-group btn-group-lg">
+    <button class="btn btn-primary">button1</button>
+    <button class="btn btn-success">button2</button>
+    <button class="btn btn-info">button3</button>
+</div>
+<br><br>
+<div class=" btn-group-md btn-group-vertical">
+    <button class="btn btn-primary">button1</button>
+    <button class="btn btn-success">button2</button>
+    <button class="btn btn-info">button3</button>
+</div>
+
+<!--DROPDOWN-->
+<div class="container">
+
+    <h2>Dropdown Menus</h2>
+    <p>To create a dropdown menu add one button group inside another:</p>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Cybersecurity</button>
+        <button type="button" class="btn btn-primary">Mobile App Development</button>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+
+                Website Development
+
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">HTML</a>
+                <a class="dropdown-item" href="#">CSS</a>
+                <a class="dropdown-item" href="#">Bootstrap</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
