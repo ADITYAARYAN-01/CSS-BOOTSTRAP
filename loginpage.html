@@ -1,0 +1,92 @@
+<!-- The user will be moved to the Student Information 
+page when clicking on the login button. Create a student table using HTML with 
+Name, Age, Semester, and Registration Number. The alternative rows of the table 
+should be of different colors. Add Edit and Delete buttons for each row and implement 
+their functions. Style the Edit and Delete buttons with different colors. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>q8</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <style>
+        tr:nth-child(even){
+            background-color: paleturquoise;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("#edit").click(function(){
+                alert("this is not implemented yet");
+            })
+            $("td #delete").click(function(){
+                $(this).closest("tr").remove();
+            })
+
+        })
+    </script>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th>roll</th>
+            <th>name</th>
+            <th>sec </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ARJUN</td>
+            <td>A</td>
+            <td>
+                <button id="edit">EDIT</button>
+                <button id="delete">DELETE</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ABHAY</td>
+            <td>B</td>
+            <td>
+                <button id="edit">EDIT</button>
+                <button id="delete">DELETE</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>VIKRAM</td>
+            <td>C</td>
+            <td>
+                <button id="edit">EDIT</button>
+                <button id="delete">DELETE</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ABHAY</td>
+            <td>B</td>
+            <td>
+                <button id="edit">EDIT</button>
+                <button id="delete">DELETE</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>VIKRAM</td>
+            <td>C</td>
+            <td>
+                <button id="edit">EDIT</button>
+                <button id="delete">DELETE</button>
+            </td>
+        </tr>
+
+        <input type="text" id="searchbar" placeholder="search bar ">
+
+    </table>
+</body>
+
+</html>
